@@ -1,0 +1,22 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "permission": {
+    "*": "allow",
+    "bash": {
+      "*": "allow",
+      "mv": "allow",
+      "cp": "allow",
+      "rm": "allow",
+      "mkdir": "allow",
+      "touch": "allow",
+      "cd": "allow",
+      "bun": "allow",
+      "npm": "allow",
+      "npx": "allow",
+      "php": "allow",
+      "node": "allow",
+      "grep": "allow",
+      "cat": "allow",
+    },
+  },
+}
